@@ -1,8 +1,45 @@
-body {
+@font-face {
+  font-family: openSans;
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf");
+}
+* {
+  font-family: openSans;
+}
+.body {
   padding-top: 0px;
   margin-top: 0px;
   padding-left: 20em;
   padding-right: 20em;
+}
+.orange-header {
+  background-color: #fd7e14;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.orange-header-left img {
+  margin-left: 20px;
+}
+
+.orange-header-center input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  width: 30em;
+  background-color: #fff;
+}
+
+.orange-header-right a {
+  margin-right: 50px;
+  color: #fff;
+}
+
+.orange-header-right a:hover {
+  color: #fff;
 }
 
 .search-bar {
@@ -20,12 +57,12 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  position: fixed;
+  position: absolute;
   width: 69%;
   margin-top: 0px;
   z-index: 1000;
   box-shadow: 0 4px 6px -6px #222;
-  top: 0;
+  top: 50;
 }
 
 .header-links {
