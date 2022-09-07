@@ -171,3 +171,70 @@
 #signup-content {
   display: none;
 }
+
+.orange-header {
+  background-color: #fd7e14;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.orange-header-left img {
+  margin-left: 20px;
+}
+
+.orange-header-center input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  width: 30em;
+  background-color: #fff;
+}
+
+.orange-header-right a {
+  margin-right: 50px;
+  color: #fff;
+}
+
+.orange-header-right a:hover {
+  color: #fff;
+}
+
+.page-footer {
+  margin-top: 5em;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-footer img {
+  width: 9%;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .orange-header-left,
+  .orange-header-center {
+    display: none;
+  }
+  .orange-header-right a {
+    font-size: 12px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+  .form-header > div {
+    min-width: 100px;
+  }
+  .form-header > div {
+    min-width: 100px;
+  }
+}
