@@ -1,13 +1,17 @@
 .latest-prods-card {
-  max-width: 50%;
+    max-width: 50%;
+}
+
+body {
+    zoom: 67%;
 }
 
 .latest-prods-card .prod-img {
-  width: 100%;
-  min-height: auto;
+    width: 100%;
+    min-height: auto;
 }
 
 .latest-prods-card .star-img {
-  margin-top: 20px;
-  width: 8%;
+    margin-top: 20px;
+    width: 8%;
 }

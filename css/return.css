@@ -1,127 +1,133 @@
 .main-content {
-  margin-top: 8em;
+    margin-top: 8em;
+}
+
+body {
+    zoom: 67%;
 }
 
 .my-acc-sec h3,
 .my-orders-sec h3 {
-  font-weight: bolder;
-  font-size: 16px;
-  margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
+
 .my-acc-sec img {
-  width: 25%;
+    width: 25%;
 }
 
 .my-acc-sec span {
-  display: block;
+    display: block;
 }
 
 .my-orders-sec {
-  margin-top: 5em;
+    margin-top: 5em;
 }
 
 .my-orders-sec img {
-  width: 15%;
+    width: 15%;
 }
 
 .my-orders-sec a {
-  display: block;
-  margin-top: 20px;
-  color: #000;
+    display: block;
+    margin-top: 20px;
+    color: #000;
 }
 
 .my-orders-sec a:hover {
-  color: #ff6a22;
-  text-decoration: none;
-  font-weight: bold;
+    color: #ff6a22;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .return-right-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-left h2 {
-  color: #ff6a22;
+    color: #ff6a22;
 }
 
 .header-right {
-  display: flex;
-  justify-content: end;
+    display: flex;
+    justify-content: end;
 }
 
 .header-right select {
-  padding: 5px;
-  font-weight: bold;
-  margin-left: 10px;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 .order-id {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .return-prod-left img {
-  width: 100%;
+    width: 100%;
 }
 
 .return-prod-right {
-  padding-left: 20px;
-  padding-top: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .return-prod-right p {
-  font-weight: bold;
-  font-size: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .stars {
-  margin-top: 1em;
+    margin-top: 1em;
 }
 
 .stars img {
-  width: 3%;
+    width: 3%;
 }
 
 .return-prod-right b {
-  color: #7f8c8d;
-  display: block;
-  margin-top: 10px;
+    color: #7f8c8d;
+    display: block;
+    margin-top: 10px;
 }
 
 .return-prod-right .strike {
-  text-decoration: line-through;
-  color: #7f8c8d;
-  font-weight: normal;
+    text-decoration: line-through;
+    color: #7f8c8d;
+    font-weight: normal;
 }
 
 .off {
-  color: #ff6a22;
+    color: #ff6a22;
 }
 
 .delivered {
-  font-weight: bold;
-  font-size: 18px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .bordered {
-  margin-top: 4em;
-  border: 1px solid #ccc;
-  padding: 20px;
+    margin-top: 4em;
+    border: 1px solid #ccc;
+    padding: 20px;
 }
+
 .bordered p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .color-green {
-  color: #00b531;
+    color: #00b531;
 }
 
 @media only screen and (max-width: 600px) {
-  .main-content {
-    margin-top: 0em;
-  }
-  .my-acc-sec {
-    display: none;
-  }
+    .main-content {
+        margin-top: 0em;
+    }
+    .my-acc-sec {
+        display: none;
+    }
 }
